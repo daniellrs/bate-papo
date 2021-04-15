@@ -1,0 +1,14 @@
+:root {
+  --border-radius-sm: 12px;
+  --border-radius-md: 24px;
+  --border-radius-lg: 32px;
+
+  --padding-lg: 20px;
+  --padding-md: 16px;
+  --padding-sm: 12px;
+  --padding-xs: 8px;
+
+  --font-family-default: Inter, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
+    sans-serif;
+}

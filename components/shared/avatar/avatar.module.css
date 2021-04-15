@@ -1,0 +1,19 @@
+.avatar {
+  border-radius: 50%;
+  min-width: 42px;
+  min-height: 42px;
+  width: 42px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-size: 1em;
+}
+
+.small {
+  min-width: 32px;
+  min-height: 32px;
+  width: 32px;
+  height: 32px;
+}

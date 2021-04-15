@@ -1,0 +1,27 @@
+:root {
+  --white1: #fff;
+  --white2: #f6f6f6;
+
+  --grey1: #3f3f3f;
+  --grey2: #9a9a9a;
+  --grey3: #f6f6f6;
+
+  --blue1: #3787ff;
+  --blue2: #2399ff;
+  --blue3: #06b4ff;
+
+  --background-with-user: #ebf7fb;
+  --background-with-user-strong: #dbf6ff;
+  --background-main-color: rgba(0, 0, 0, 0.02);
+  --background-border-circle-color: #ececec;
+  --background-unknown-user-circle-color: #efefef;
+
+  --container-shadow-color: rgba(35, 153, 255, 0.35);
+
+  --input-border-color: #b1eaff;
+  --input-shadow-color: #c5f0ff;
+
+  --button-shadow-color: #f3f3f3;
+
+  --chat-person-hover-color: rgba(0, 0, 0, 0.06);
+}

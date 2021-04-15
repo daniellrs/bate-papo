@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  align-items: center;
+  overflow: 'hidden';
+  padding: var(--padding-xs);
+  border-radius: var(--border-radius-sm);
+}
+
+.container:hover {
+  background: var(--chat-person-hover-color);
+}
+
+.nameContainer {
+  margin-left: 12px;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.name {
+  font-size: 0.95em;
+  font-weight: 400;
+}
+
+.label {
+  font-size: 0.8em;
+  font-weight: 300;
+}
+
+.ellipsis {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}

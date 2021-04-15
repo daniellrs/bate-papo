@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+}
+
+.buttonContainer {
+  position: relative;
+  padding-right: 68px;
+  margin-left: 16px;
+}
+
+.button {
+  position: absolute;
+  padding: 26px;
+}

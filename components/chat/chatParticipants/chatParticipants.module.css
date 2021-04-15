@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  margin-right: 20px;
+}
+
+.stack {
+  margin-top: -10px;
+}
+
+.stack > div {
+  margin-top: 10px;
+}
+
+.noParticipants {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+@media (max-width: 990px) {
+  .container {
+    display: none;
+  }
+}

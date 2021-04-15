@@ -1,0 +1,14 @@
+.container {
+  border-radius: var(--border-radius-lg) var(--border-radius-sm)
+    var(--border-radius-sm) var(--border-radius-sm);
+  background: var(--white1);
+  box-shadow: -1px 3px 35px 3px var(--container-shadow-color);
+  background: linear-gradient(
+    var(--blue1) 0%,
+    var(--blue2) 33%,
+    var(--blue3) 66%,
+    var(--blue3) 100%
+  );
+  padding: var(--padding-lg);
+  margin: 12px;
+}

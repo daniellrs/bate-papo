@@ -1,0 +1,28 @@
+.button {
+  border-radius: var(--border-radius-lg) var(--border-radius-sm)
+    var(--border-radius-sm) var(--border-radius-sm);
+  padding: var(--padding-md);
+  background: var(--white1);
+  color: var(--grey1);
+  transition: all 0.3s;
+  border: 1px solid var(--white1);
+  outline: transparent;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 0.9em;
+  box-shadow: 0 0 1px var(--button-shadow-color);
+}
+
+.button:hover {
+  box-shadow: 0 0 3px var(--button-shadow-color);
+  color: var(--blue2);
+}
+
+.button:active {
+  color: var(--blue1);
+  background: var(--white2);
+}
+
+.fullWidth {
+  width: 100%;
+}

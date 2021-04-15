@@ -1,0 +1,27 @@
+.text {
+  color: var(--grey1);
+}
+
+.white {
+  color: var(--white1);
+}
+
+.title1 {
+  font-size: 1.15em;
+  font-weight: 500;
+}
+
+.title2 {
+  font-size: 1.25em;
+  font-weight: 400;
+}
+
+.caption1 {
+  font-size: 0.95em;
+  font-weight: 300;
+}
+
+.caption2 {
+  font-size: 0.7em;
+  font-weight: 600;
+}

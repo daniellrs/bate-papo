@@ -1,0 +1,12 @@
+.container {
+  margin: 3px 0;
+  background: var(--white1);
+  padding: var(--padding-sm);
+  border-radius: var(--border-radius-sm);
+  box-shadow: 2px 0 4px rgba(0, 0, 0, 0.05);
+  font-size: 0.925em;
+}
+
+.blue {
+  background: var(--blue3);
+}

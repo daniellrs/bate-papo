@@ -1,0 +1,30 @@
+.container {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.circle_container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  filter: blur(1em);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--background-main-color);
+}
+
+.circle {
+  width: 40vh;
+  height: 40vh;
+  border-radius: 50%;
+  border: 50px solid var(--background-border-circle-color);
+  background-color: var(--background-unknown-user-circle-color);
+}
